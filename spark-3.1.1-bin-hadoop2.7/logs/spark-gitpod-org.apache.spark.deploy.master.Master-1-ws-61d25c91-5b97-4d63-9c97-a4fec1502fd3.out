@@ -1,0 +1,29 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+Spark Command: /home/gitpod/.sdkman/candidates/java/current/bin/java -cp /workspace/example-airflow-and-spark/spark-3.1.1-bin-hadoop2.7/conf/:/workspace/example-airflow-and-spark/spark-3.1.1-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host ws-61d25c91-5b97-4d63-9c97-a4fec1502fd3 --port 7077 --webui-port 8080
+========================================
+Picked up JAVA_TOOL_OPTIONS: -Xmx1879m
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+21/10/12 12:06:12 INFO Master: Started daemon with process name: 1888@ws-61d25c91-5b97-4d63-9c97-a4fec1502fd3
+21/10/12 12:06:12 INFO SignalUtils: Registering signal handler for TERM
+21/10/12 12:06:12 INFO SignalUtils: Registering signal handler for HUP
+21/10/12 12:06:12 INFO SignalUtils: Registering signal handler for INT
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/workspace/example-airflow-and-spark/spark-3.1.1-bin-hadoop2.7/jars/spark-unsafe_2.12-3.1.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+21/10/12 12:06:13 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/10/12 12:06:13 INFO SecurityManager: Changing view acls to: gitpod
+21/10/12 12:06:13 INFO SecurityManager: Changing modify acls to: gitpod
+21/10/12 12:06:13 INFO SecurityManager: Changing view acls groups to: 
+21/10/12 12:06:13 INFO SecurityManager: Changing modify acls groups to: 
+21/10/12 12:06:13 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(gitpod); groups with view permissions: Set(); users  with modify permissions: Set(gitpod); groups with modify permissions: Set()
+21/10/12 12:06:13 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+21/10/12 12:06:13 INFO Master: Starting Spark master at spark://ws-61d25c91-5b97-4d63-9c97-a4fec1502fd3:7077
+21/10/12 12:06:13 INFO Master: Running Spark version 3.1.1
+21/10/12 12:06:14 WARN Utils: Service 'MasterUI' could not bind on port 8080. Attempting port 8081.
+21/10/12 12:06:14 INFO Utils: Successfully started service 'MasterUI' on port 8081.
+21/10/12 12:06:14 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://ws-61d25c91-5b97-4d63-9c97-a4fec1502fd3:8081
+21/10/12 12:06:14 INFO Master: I have been elected leader! New state: ALIVE
+21/10/12 12:10:07 INFO Master: Registering worker 10.52.9.41:41871 with 6 cores, 11.0 GiB RAM
+[8757.216s][warning][os,thread] Failed to start thread - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
